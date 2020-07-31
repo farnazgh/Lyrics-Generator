@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Nov  5 10:55:36 2019
 
-@author: gab
-"""
 
 
 #------Unsmoothed Maximum Likelihood Character Level Language Model (https://nbviewer.jupyter.org/gist/yoavg/d76121dfde2618422139)
