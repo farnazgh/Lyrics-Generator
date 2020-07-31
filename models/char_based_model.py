@@ -3,10 +3,9 @@
 
 
 
-#------Unsmoothed Maximum Likelihood Character Level Language Model (https://nbviewer.jupyter.org/gist/yoavg/d76121dfde2618422139)
 from collections import *
 
-order=10 #---------------------------------
+order=10 
 
 def train_char_lm( order):
     lm = defaultdict(Counter)
