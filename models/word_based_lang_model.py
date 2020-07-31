@@ -1,16 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Nov  5 10:55:36 2019
 
-@author: gab
-"""
 
 from collections import *
 import nltk
 # nltk.download('punkt')
 
-order=3 #----------------------------------------------
+order=3 
 def train_char_lm( order):
     lm = defaultdict(Counter)
     
@@ -41,8 +37,6 @@ def train_char_lm( order):
 #####training the model
 lm = train_char_lm( order)
 
-#checking char prediction for order=10
-# print(lm)
 
 
 ##-----Generating from model
